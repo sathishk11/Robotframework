@@ -1,7 +1,6 @@
 *** Settings ***
-# Library    RPA.Browser.Selenium
-Library    SeleniumLibrary
-Library    RPA.SAP
+Library    RPA.Browser.Selenium
+# Library    SeleniumLibrary
 
 *** Keywords ***
 FrameHandlingTest
@@ -12,4 +11,4 @@ FrameHandlingTest
     Click Link    BrowsingContext
     Unselect Frame
     Select Frame    classFrame
-    Click Link    LIST_OF_BROWSING_CONTEXT_INFO
+    Click Link    LIST_OF_BROWSING_CONTEXT_INFO 

@@ -23,8 +23,8 @@ Login_to_application
     Input Text    ${userbox}    Admin
     Sleep    5
     # Clear Element Text    ${userbox}
-    Press Keys    ${userbox}    CTRL+A+DELETE
-    Sleep    5
+    # Press Keys    ${userbox}    CTRL+A+DELETE
+    # Sleep    5
     # Input Text    xpath://body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/input[1]    Admin
     Input Password    xpath://body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/div[2]/input[1]    admin123
     Sleep    5

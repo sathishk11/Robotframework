@@ -1,6 +1,6 @@
 *** Settings ***
-# Library    RPA.Browser.Selenium
-Library    SeleniumLibrary
+Library    RPA.Browser.Selenium
+# Library    SeleniumLibrary
 Resource    ../Operations/Frames_operations.robot
 
 *** Variables ***

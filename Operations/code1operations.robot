@@ -1,6 +1,7 @@
 *** Settings ***
-Library    RPA.Browser.Selenium
+Library    RPA.Browser.selenium
 Library    RPA.Windows
+# Library    SeleniumLibrary
 
 *** Keywords ***
 Test_Search
